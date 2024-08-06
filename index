@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colección MGx</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Gris claro */
+            color: #333;
+        }
+        header {
+            background-color: #222; /* Gris más oscuro que los botones */
+            color: #fff;
+            padding: 40px 20px 30px;
+            text-align: center;
+        }
+        header h1 {
+            font-family: "Lucida Calligraphy", cursive;
+            font-size: 54px;
+            margin: 0;
+            padding-bottom: 15px;
+            margin-top: 5px;
+            color: #fff;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        h3 {
+            font-family: "Optima", sans-serif;
+            font-size: 24px;
+            margin: 20px 0 10px;
+            color: #333;
+        }
+        .collection {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .collection-link {
+            background-color: #444; /* Gris oscuro para los botones */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px;
+            width: calc(45% - 10px);
+            transition: background-color 0.3s ease-in-out;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+        .collection-link:hover {
+            background-color: #333; /* Gris más oscuro para hover */
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+        }
+        footer p {
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Colección MGx</h1>
+    </header>
+    <main>
+        <h3>Colección de Modern</h3>
+        <div class="collection">
+            <a href="https://manabox.app/decks/3Upbi7_TT-SI3NpDc17R4Q" class="collection-link">Block 9 MR/DS/FD</a>
+            <a href="https://manabox.app/decks/4GbfxRv-RiO_JsFaQ1Ds8w" class="collection-link">Block 10 CHK/BOK/SOK</a>
+            <a href="https://manabox.app/decks/m0T7jma_TP62Ij8B34wxgQ" class="collection-link">Block 11 RAV/GPT/DIS</a>
+            <a href="https://manabox.app/decks/ryP-HOeqQBSrbszdDxZcKQ" class="collection-link">Block 12 TSP/PLC/FUT</a>
+            <a href="https://manabox.app/decks/2DBwow05Sa-1zIgMF_0PPQ" class="collection-link">Block 13 LRW/MOR</a>
+            <a href="https://manabox.app/decks/jZU9tkefSN6eb0HcRHeWfA" class="collection-link">Block 14 SHM/EVE</a>
+            <a href="https://manabox.app/decks/IytE7I28RZetvjc80wBuCg" class="collection-link">Block 15 ALA/CON/ARB</a>
+            <a href="https://manabox.app/decks/kLXwFISzSWS1x-pHbmAkEA" class="collection-link">Block 16 ZEN/WWK/ROW</a>
+            <a href="https://manabox.app/decks/wwO7LqgxTzyz9Ybr56wqOA" class="collection-link">Block 17 SOM/MBS/NPH</a>
+            <a href="https://manabox.app/decks/GDoHdL-QTFW1XVgynsVMmQ" class="collection-link">Block 18 INS/DKA/AVR</a>
+        </div>
+
+        <h3>Colección de Pioneer</h3>
+        <div class="collection">
+            <a href="https://manabox.app/decks/Fn8uLNo0TjCbYkCFEbQkDw" class="collection-link">Block 19 RTR/GTC/DGM</a>
+            <a href="https://manabox.app/decks/hf6kaD62Qk2WhIB0B-XpjA" class="collection-link">Block 20 THS/BNG/JOU</a>
+            <a href="https://manabox.app/decks/-GDokkFxRqW4zCGi-h1qdw" class="collection-link">Block 21 KTK/FTF/DTK</a>
+            <a href="https://manabox.app/decks/ZbMV5PoXRlOB9SO3IRpHlA" class="collection-link">Block 22 BFZ/OGW</a>
+            <a href="https://manabox.app/decks/q-sfcTwfSAKJ9C2qwhyYNw" class="collection-link">Block 23 SOI/EMN</a>
+            <a href="https://manabox.app/decks/BYYyRngGT_62EBrfX5vy5g" class="collection-link">Block 24 KLD/AER</a>
+            <a href="https://manabox.app/decks/d59ZgqFrQYuBXCRbDMS4Zg" class="collection-link">Block 25 AKH/HOU</a>
+            <a href="https://manabox.app/decks/RTBNOLA8TfCnpuDhNLFb3Q" class="collection-link">Block 26 XLN/RIX</a>
+        </div>
+
+        <h3>Colección de Post-Bloques</h3>
+        <div class="collection">
+            <a href="https://manabox.app/decks/Y6bGJSC8TJ6EUneqzxnrAQ" class="collection-link">Post-Bloques</a>
+        </div>
+
+        <h3>Otras Colecciones</h3>
+        <div class="collection">
+            <a href="https://manabox.app/decks/ZI50YKxbQbG4NjcZcWqS6g" class="collection-link">Col. Básicas Pioneer</a>
+            <a href="https://manabox.app/decks/rw3c7azkTnScH8ETWA150w" class="collection-link">Col. Básicas Modern</a>
+            <a href="https://manabox.app/decks/8uVVM4grSGKjjSB5RjgORw" class="collection-link">Otras Colecciones Modern</a>
+            <a href="https://manabox.app/decks/nbARUfxRROyfLYkdxES86w" class="collection-link">Col. Pre-Modern</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Colección MGx. All rights reserved.</p>
+    </footer>
+</body>
+</html>
